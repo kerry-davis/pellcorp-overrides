@@ -2,11 +2,23 @@
 #*# <---------------------- SAVE_CONFIG ---------------------->
 #*# DO NOT EDIT THIS BLOCK OR BELOW. The contents are auto-generated.
 #*#
-#*# [bltouch]
-#*# z_offset = 1.175
-#*#
 #*# [input_shaper]
 #*# shaper_type_x = 2hump_ei
 #*# shaper_freq_x = 90.6
 #*# shaper_type_y = mzv
 #*# shaper_freq_y = 58.7
+#*#
+#*# [probe]
+#*# z_offset = 0.555
+#*#
+#*# [extruder]
+#*# control = pid
+#*# pid_kp = 32.390
+#*# pid_ki = 3.322
+#*# pid_kd = 78.949
+#*#
+#*# [heater_bed]
+#*# control = pid
+#*# pid_kp = 61.727
+#*# pid_ki = 0.816
+#*# pid_kd = 1166.633
